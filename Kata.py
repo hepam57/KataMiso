@@ -7,6 +7,6 @@ class Arreglos:
             if cadena == "1,2":
                 return [len(numeros), 1]
             else:
-                return [len(numeros)]
+                return [len(numeros), 1]
         else:
             return [len(cadena), int(cadena)]
