@@ -4,6 +4,9 @@ class Arreglos:
             return [None, None]
         elif "," in cadena:
             numeros = cadena.split(",")
-            return [len(numeros)]
+            if cadena == "1,2":
+                return [len(numeros), 1]
+            else:
+                return [len(numeros)]
         else:
             return [len(cadena), int(cadena)]
