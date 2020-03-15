@@ -1,9 +1,9 @@
 class Arreglos:
     def GetArreglos(cadena):
-        if cadena=="":
+        if cadena == "":
             return [None, None, None]
         elif "," in cadena:
             numeros = cadena.split(",")
-            return [len(numeros),int( min(numeros))]
+            return [len(numeros), int(min(numeros))]
         else:
-            return [len(cadena), int(cadena)]
+            return [len(cadena), int(cadena), int(cadena)]
