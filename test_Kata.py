@@ -6,7 +6,10 @@ class TestArreglos(TestCase):
         self.assertEqual(Kata.Arreglos.GetArreglos(""), [None, None, None], "Cadena vacía")
 
     def test_get_arreglo_con_un_numero(self):
-        self.assertEqual(Kata.Arreglos.GetArreglos("1"), [1, 1], "Arreglo con la cantidad de números")
+        self.assertEqual(Kata.Arreglos.GetArreglos("1"), [1, 1, 1], "Arreglo con la cantidad de números")
+
+    def test_get_arreglo_con_un_numero_0(self):
+        self.assertEqual(Kata.Arreglos.GetArreglos("0"), [1, 0, 0], "Arreglo con número 0")
 
     def test_get_arreglo_con_dos_numeros(self):
         self.assertEqual(Kata.Arreglos.GetArreglos("1,2"), [2, 1], "Arreglo con  2 números")
