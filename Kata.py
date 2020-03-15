@@ -1,3 +1,6 @@
 class Arreglos:
     def GetArreglos(cadena):
-        return []
+        if cadena=="":
+            return []
+        else:
+            return [len(cadena)]
