@@ -1,3 +1,3 @@
 class Arreglos:
     def GetArreglos(cadena):
-        return 0
+        return []
