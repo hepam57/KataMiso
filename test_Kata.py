@@ -18,4 +18,7 @@ class TestArreglos(TestCase):
         self.assertEqual(Kata.Arreglos.GetArreglos("66,20"), [2, 20, 66], "Arreglo con 2 números diferentes")
 
     def test_get_arreglo_con_muchos_numeros(self):
-        self.assertEqual(Kata.Arreglos.GetArreglos("1,2,3,4,5,6,7,8"), [8, 1], "Arreglo con 8 números")
+        self.assertEqual(Kata.Arreglos.GetArreglos("1,2,3,4,5,6,7,8"), [8, 1, 8], "Arreglo con 8 números")
+
+    def test_get_arreglo_con_muchos_numeros_diferentes(self):
+        self.assertEqual(Kata.Arreglos.GetArreglos("10,15,20,35,80"), [5, 10, 80], "Arreglo con 5 números diferentes")
