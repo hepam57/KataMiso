@@ -6,4 +6,4 @@ class Arreglos:
             numeros = cadena.split(",")
             return [len(numeros), int(min(numeros)), int(max(numeros))]
         else:
-            return [len(cadena), int(cadena), int(cadena)]
+            return [1, int(cadena), int(cadena), int(cadena)]
