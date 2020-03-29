@@ -1,7 +1,6 @@
-# Kata - MISO 4201 202010
+# Kata - MISO 4101 202010
 
-Semana 8
-Actividad virtual 35: TDD Kata Simple
+Semana 8, actividad virtual 35: TDD Kata Simple
 
 ## Integrantes
 
